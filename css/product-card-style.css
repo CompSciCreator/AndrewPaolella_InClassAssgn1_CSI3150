@@ -1,0 +1,126 @@
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Parent container */
+.product-card {
+  display: flex;
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  overflow: hidden;
+  margin: 120px;
+}   
+
+/* Left column (image) */
+.left-img-col img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Right column (product info) */
+.right-info-col {
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;
+}
+
+/* Product heading */
+.right-info-col h3 {
+  font-size: 32px;
+  margin: 15px;
+}
+
+/* Product subheading */
+.right-info-col h5 {
+  font-size: 18px;
+  margin: 15px;
+  color: lightgray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Product description */
+.right-info-col p {
+  font-size: 14px;
+  margin-top: 20px;
+  margin: 20px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+
+  color: black;
+}
+
+/* Available colors section */
+.available-colors {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.available-colors span {
+  margin-right: 40px;
+  text-indent: 30px;
+}
+
+.black-color-container,
+.red-color-container,
+.white-color-container {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.black-color-container {
+  background-color: black;
+}
+
+.red-color-container {
+  background-color: red;
+}
+
+.white-color-container {
+  background-color: beige;
+}
+
+/* Price section */
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.price h4 {
+  font-size: 32px;
+  margin: 0px;
+}
+
+/* Buy button */
+.buy-btn {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.buy-btn:hover {
+  background-color: gray;
+}
